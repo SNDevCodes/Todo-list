@@ -1,0 +1,99 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:ital,wght@0,200;0,300;0,500;1,300&family=Roboto&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+html {
+font-family: 'Roboto', sans-serif;
+background: #171717;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20% 0;
+color: white;
+padding: 20px;
+width: 30%;
+border-radius: 5px;
+margin: auto;
+margin-top: 40px;
+background: rgb(55 55 55);
+}
+
+.content {
+width: 100%;
+}
+
+
+.searchBar {
+display: flex;
+align-items: center;
+padding: 10px;
+gap: 5px;
+justify-content: space-between;
+margin: auto;
+}
+
+.search {
+background-color: #171717;
+border: 1px solid rgb(110 110 110 / 74%);
+border-radius: 5px;
+outline: none;
+padding: 10px;
+width: 100%;
+color: white;
+}
+
+.actionBtn {
+gap: 6px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.clicked {
+background-color: #005312;
+border: 1px solid #70ff703b;
+outline: none;
+border-radius: 5px;
+color: white;
+padding: 10px;
+cursor: pointer;
+}
+
+.delete {
+background-color: #8b0707;
+border: 1px solid #ec43438d;
+outline: none;
+border-radius: 5px;
+color: white;
+padding: 10px;
+cursor: pointer;
+}
+
+.lists {
+display: flex;
+flex-direction: column;
+list-style: none;
+padding: 0 10px;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.lists li {
+background: #242424;
+padding: 7px 14px;
+border-radius: 5px;
+text-transform: capitalize;
+}
+
+.noSearchError {
+text-align: center;
+color: #ff5353;
+transition: 0.4s ease-in-out;
+}
+
+.errored {
+scale: 1.05;
+}
